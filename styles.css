@@ -22,6 +22,7 @@ body {
     width: 40%;
     align-items: center;
     gap: 2rem;
+    min-height: calc(100vh - 70px);
 }
 
 .highlight {
@@ -30,17 +31,13 @@ body {
 
 .footer {
     text-align: center;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
+    height: 100px;
     background-color: var(--cyan-light);
     padding: 1rem 0rem;
 }
 
 .footer > ul {
     list-style: none;
-    gap: 1rem;
     padding-inline-start: 0px;
 }
 
